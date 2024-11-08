@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    cursor: crosshair;
+}
+
+body{
+    background-color: black;
+}
+
+.Uno,.Duo{
+    box-shadow: 0 0 5px 5px rgba(73, 73, 73, 0.322)
+    ;
+}
+
+#scope{
+    border-radius: 30rem;
+    padding: 10px;
+    width: 40rem;
+    background-color:  rgba(92, 90, 90, 0.408);    
+    border: none;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px){
+    #scope{
+        width: 20rem;
+    }
+    
+}
+
+.header ul nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items:  center;
+    padding: 10px;
+}
+
+.header ul nav div{
+    color: white;
+}
+
+.enspot{
+    font-size: 40px;
+}
+
+.spotty, .circled{
+    font-size: 30px;
+}
+
+.circled{
+    background-color:  rgba(92, 90, 90, 0.408);    
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.membership{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+
+.membership li{
+    list-style: none;
+}
+
+.membership li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Helvetica;
+
+}
+
+
+.blue{
+    padding: 20px;
+    background-color:  whitesmoke;
+    border-radius:  20rem;
+
+}
+
+.blue, .innovate, .Browse{
+    transition: all 0.3s ease-in-out;
+}
+
+.blue:hover,.innovate:hover , .Browse:hover{
+    box-shadow: 0 0 5px white,
+    0 0 10px white
+    ;
+}
+
+.blue a {
+    color: black;
+   font-weight: bolder;
+}
+
+.white a{
+    color: whitesmoke;
+}
+
+main{
+    color:  white;
+    font-family: Helvetica;
+    display:  flex;
+    gap: 10rem;
+}
+
+
+.BookShelf{
+    display: grid;
+    grid-template-rows: repeat(3, 2fr);
+}
+
+.stacky-child{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(6, 4fr);
+    gap: 40px;
+}
+
+.top div img{
+    border-radius: 1rem;
+}
+
+.yours{
+    font-size: 25px;
+}
+
+.sided{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.booked{
+    font-size: 27px;
+}
+
+.capped{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.bi-plus{
+    font-size: 40px;
+}
+
+.another{
+    display: grid;
+    grid-template-rows: repeat(3, 30fr);
+}
+
+.Uno,.Duo{
+    margin: 40px;
+}
+
+.library{
+    margin: 40px;
+    background-color: rgba(43, 41, 41, 0.37);
+    border-radius: 1rem;
+}
+
+.innovate, .Browse{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 60px;
+    border:  none;
+}
+
+.Uno, .Duo{
+    padding: 30px;
+    background-color: rgba(78, 78, 78, 0.241);
+    width:  fit-content;
+    border-radius: 1rem;
+}
+
+.stacky-child div img{
+    border-radius: 0.5rem;
+}
+
+.arranged{
+    padding: 10px;
+    background-color: rgba(78, 78, 78, 0.241);
+    text-align: center;
+}
+
+.cream{
+    padding: 20px;
+}
